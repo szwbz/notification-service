@@ -1,0 +1,9 @@
+queues:
+  email_notifications:
+    max_deliveries_per_hour: 500
+    retry_attempts: 3
+    priority: high
+  sms_notifications:
+    max_deliveries_per_hour: 2000
+    retry_attempts: 2
+    priority: medium
