@@ -1,0 +1,15 @@
+# Notification Service Configuration
+rate_limiting:
+  max_requests_per_minute: 100
+  burst_limit: 20
+  window_size_minutes: 1
+  enabled: true
+
+notification_settings:
+  email_enabled: true
+  push_enabled: true
+  sms_enabled: false
+
+queue_settings:
+  max_retries: 3
+  retry_delay_seconds: 10
