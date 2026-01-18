@@ -1,0 +1,4 @@
+max_requests_per_minute: 800
+# Rate limiting configuration for notification service
+requests_per_user: 50
+time_window_seconds: 60
