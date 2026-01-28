@@ -1,7 +1,7 @@
 # Rate limiting configuration for notification service
 # All limits are per user unless otherwise specified
 
-sms_per_hour: 1000  # Maximum SMS messages per hour per user
+sms_per_hour: 500  # Maximum SMS messages per hour per user
 
 # Email rate limits
 email_per_hour: 500
