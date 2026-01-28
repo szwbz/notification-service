@@ -1,0 +1,20 @@
+# Rate limiting configuration for notification service
+# All limits are per user unless otherwise specified
+
+sms_per_hour: 1000  # Maximum SMS messages per hour per user
+
+# Email rate limits
+email_per_hour: 500
+email_per_day: 10000
+
+# Push notification limits
+push_per_minute: 60
+push_per_hour: 1000
+
+# Global service limits
+global_sms_per_hour: 100000
+global_email_per_hour: 50000
+
+# Retry configuration
+max_retries: 3
+retry_delay_ms: 1000
